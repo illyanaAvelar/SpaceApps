@@ -2,7 +2,7 @@ import React from 'react';
 
 import './style.css';
   
-export default function Inicial() {
+export default function StateData() {
  
     return (
         <div className = "parallax">

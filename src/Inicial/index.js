@@ -3,11 +3,11 @@ import React from 'react';
 import './style.scss';
   
 export default function Inicial() {
- 
+
     return (
         <div className = "parallax">
-            <div className = "container">
-                <div className = "header">
+            <div className = "containerI">
+                <div className = "headerI">
                     <div className = "logo"/>
                     <div className = "title">
                     "The best way to predict the future...<br></br> is to to create it."

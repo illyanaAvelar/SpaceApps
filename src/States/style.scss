@@ -1,0 +1,98 @@
+.logo{
+    height: 44px;
+    width: 82px;
+    background-color: #707070;
+    align-self: center;
+    border-radius: 5px;
+    background-image: url("../assets/82x44topLogo.png");
+}
+
+.header {
+    height: 100px;
+    color: #B82632;
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.container-estados{
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 4px 16px #455B632E;
+border-radius: 8px;
+opacity: 0.97;
+width: 85%;
+position: absolute;
+left: 8%;
+right: 10%;
+z-index: -1;
+margin: auto;
+padding: 20px;
+}
+
+.sendButton{
+    cursor: pointer;
+    margin-bottom: 21px;
+    top: 153px;
+    margin-left: 115px;
+    width: 185px;
+    height: 39px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 7px 16px #455B632E;
+    border-radius: 8px;
+    border: 0.5px solid rgb(230, 230, 230);
+    font-size: 15pt;
+    width: 140px;
+    height: 45px;
+}
+.tabela-estados table {
+    float: left;
+    border: transparent;
+    margin-left: 17px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tabela-estados table td{
+    height: 25px;
+    width: 220px;
+    border-bottom: 0.2px solid rgba($color: #707070, $alpha: 0.1);
+    padding: 10px;
+}
+
+.map{
+float:left;
+width: 10%;
+}
+
+.map1 {
+    margin-left: 16px;
+    padding-top: 10px;
+    width: 627px;
+    height: 550px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 16px #455B632E;
+    border-radius: 12px;
+    opacity: 1;
+}
+
+td:hover { 
+    background: rgba(200,200,200,1); 
+ }
+
+ .bar{
+    margin-bottom: 8px;
+    margin-left: 115px;
+    margin-top: -16px;
+    height: 6px;
+    width: 140px;
+    background-color: #CC4651;
+    align-self: center;
+    border-radius: 5px;
+    border-style: 0.5 pxsolid;
+    border-color: #B82632;
+}

@@ -2,12 +2,12 @@ import React from 'react';
 
 import './style.scss';
   
-export default function Inicial() {
+export default function Marvin() {
  
     return (
         <div className = "parallax">
             <div className = "container">
-                <div className = "header">
+                <div className = "headerM">
                     <div className = "logo"/>
                     <input id = "sent"
                     type = "submit"
@@ -15,7 +15,7 @@ export default function Inicial() {
                     value = "View Charts"
                     name = "sendButton"/>            
                 </div>
-                <div className="body">
+                <div className="bodyM">
                     <div className = "marvin"/>
                     <div className = "messages">
                         <div className = "balloon1">

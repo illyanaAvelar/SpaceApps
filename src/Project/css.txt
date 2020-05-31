@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+
+.parallax {
+  /* The image used */
+  background-image: url("../assets/background.jpg");
+
+  /* Set a specific height */
+  min-height: 100vh;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding: 0 10%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}  
+.container {
+      width: 100%;
+      background-color: rgba(255, 255, 255, 0.6);
+}      
+.header {
+        height: 350px;
+        width: 100%; 
+        background-color: #ffffff; 
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+
+        .logo{
+            height: 44px;
+            width: 82px;
+            background-color: #707070;
+            align-self: center;
+            border-radius: 5px;
+            background-image: url("../assets/82x44topLogo.png");
+            margin-top: 20px;
+        }
+        
+        .title {
+            color: #707070;
+            font: 400 25px 'sans-serif', sans-serif;
+            margin-top: 30px;
+        }
+
+        .description {
+            color: #707070;
+            font: 400 16px 'sans-serif', sans-serif;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .states {
+            font: 400 20px 'sans-serif', sans-serif;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            box-shadow: 0px 4px 16px #455B632E;
+            border-radius: 7px;
+            opacity: 1;
+            padding: 7px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        .bar{
+            height: 6px;
+            width: 80px;
+            background-color: #79D56F;
+            align-self: center;
+            border-radius: 5px;
+            border-style: 0.5 pxsolid;
+            border-color: #10A400;
+            margin-top: -40px;
+        }
+    }
+    
+    .body {
+        
+        width: 100%;
+        background-color: #ffffff;        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 140px;
+        padding-right: 140px;
+        padding-top: 60px;
+        
+        .politcs {
+            width: 200px;
+            height: 500px;
+            background-color: white;
+        }
+
+        .social {
+
+        }
+    }
+    
+    .sendButton {
+        width: 140px;
+        height: 45px;
+        align-self: flex-end;
+        margin-right: 70px;
+        color: #ffffff;
+        background-color: #79D56F;
+        border: 0.5px solid #10A400;
+        border-radius: 8px;
+    }
