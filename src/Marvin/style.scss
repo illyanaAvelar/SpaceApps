@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+
+.parallax {
+  /* The image used */
+  background-image: url("../assets/background.jpg");
+
+  /* Set a specific height */
+  min-height: 100vh;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding: 0 10%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}  
+.container {
+      width: 100%;
+      background-color: rgba(255, 255, 255, 0.6);
+}      
+.header {
+        height: 180px;
+        width: 100%; 
+        background-color: #ffffff; 
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+
+        .logo{
+            height: 44px;
+            width: 82px;
+            background-color: #707070;
+            align-self: center;
+            border-radius: 5px;
+            background-image: url("../assets/82x44topLogo.png");
+            margin-top: 20px;
+        }
+        
+        
+        .sendButton {
+            width: 140px;
+            height: 45px;
+            align-self: flex-end;
+            margin-right: 70px;
+            color: #ffffff;
+            background-color: #79D56F;
+            border: 0.5px solid #10A400;
+            border-radius: 8px;
+        }
+    }
+    
+    .body {
+        
+        width: 100%;
+        background-color: #ffffff;        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 140px;
+        padding-right: 140px;
+        padding-top: 60px;
+
+        .marvin {
+            width: 45px;
+            height: 30px;
+            background-image: url("../assets/42x30Marvin.png");
+            align-self: flex-start;
+        }
+        
+        .messages {
+            width: 100%;
+            height: 500px;
+            background-color: rgb(255, 255, 255);
+            margin-left: 40px;
+            display: flex;
+            flex-direction: column;
+
+            .balloon1 {
+                width: 600px;
+                padding: 20px;
+                border: 0.5px solid #455B632E;
+                border-style: outset;
+                border-radius: 8px;
+                margin-bottom: 15px;  
+                background: #FFFFFF 0% 0% no-repeat padding-box;
+                box-shadow: 0px 4px 16px #455B632E;
+                opacity: 1;
+            }
+
+            .balloon2 {
+                padding: 20px;
+                border: 0.5px solid #455B632E;
+                border-style: outset;
+                border-radius: 8px;
+                margin-bottom: 15px;  
+                background: #FFFFFF 0% 0% no-repeat padding-box;
+                box-shadow: 0px 4px 16px #455B632E;
+                opacity: 1;
+            }
+        }
+    }
+
+     
+    .boxes {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255,255,255,1);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;  
+        padding-bottom: 20px;
+    }  
+
