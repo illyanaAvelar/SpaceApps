@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+
+.parallax {
+  /* The image used */
+  background-image: url("../assets/background.jpg");
+
+  /* Set a specific height */
+  min-height: 100vh;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding: 0 10%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}  
+.container {
+      width: 100%;
+      background-color: rgba(255, 255, 255, 0.6);
+}      
+.header {
+        height: 180px;
+        width: 100%; 
+        background: linear-gradient(to bottom right, #ffffff 50%, #ccccff 100%);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+
+        .bar{
+            height: 6px;
+            width: 200px;
+            background-color: #707070;
+            align-self: center;
+            border-radius: 5px;
+            
+        }
+}
+.logo {
+    width: 290px;
+    height: 54px;
+    background-image: url("../assets/logo_topo.png");
+    align-self: flex-start;
+}
+
+    .title{ 
+        color: #4E4E4E;
+        font: 400 25px 'sans-serif', sans-serif;
+        text-align: center;
+    }
+
+    .authors {
+        font: 400 10px 'sans-serif', sans-serif;
+        margin-top: -23px;
+    }
+       
+    .body {
+
+        width: 100%;
+        background-color: rgba(1,1,1,0.0);
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        .info {
+            width: 100%;
+            background-color: rgba(255,255,255,1);
+            align-items: center;
+            padding: 80px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            font: 400 18px 'sans-serif', sans-serif;
+            color: #707070;
+        } 
+    }
+
+     
+    .boxes {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255,255,255,1);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;  
+        padding-bottom: 20px;
+    }  
+
+    .analyze {
+        width: 300px;
+        height: 240px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border-style: outset;
+
+        .box_title {
+            padding-top: 40px;
+            font: 400 23px 'sans-serif', sans-serif;
+        }
+
+        .sendButton {            
+            height: 30px;
+            width: 120px;
+            background-color: #CC4651;
+            border-radius: 9px;
+            color: #F7F8F8;
+            padding: 8px;
+            border-style: 0.5px solid;
+            border-color: #B82632;
+            font: 400 13px 'sans-serif', sans-serif;
+        }
+
+        .bar{
+            height: 6px;
+            width: 200px;
+            background-color: #CC4651;
+            align-self: center;
+            border-radius: 5px;
+            border-style: 0.5px solid;
+            border-color: #B82632;            
+        }
+    }
+
+    .project {
+        width: 300px;
+        height: 240px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border-style: outset;
+        margin-left: 100px;
+        
+        .box_title {
+            padding-top: 40px;
+            font: 400 23px 'sans-serif', sans-serif;
+        }
+        .sendButton {
+            height: 30px;
+            width: 120px;
+            background-color: #79D56F;
+            border-radius: 9px;
+            color: #F7F8F8;
+            padding: 8px;
+            border-style: 0.5 pxsolid;
+            border-color: #10A400;
+            font: 400 13px 'sans-serif', sans-serif;
+        }
+
+        .bar{
+            height: 6px;
+            width: 200px;
+            background-color: #79D56F;
+            align-self: center;
+            border-radius: 5px;
+            border-style: 0.5 pxsolid;
+            border-color: #10A400;
+        }
+    }

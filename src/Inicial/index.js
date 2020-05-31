@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './style.css';
+import './style.scss';
   
 export default function Inicial() {
  
@@ -8,45 +8,55 @@ export default function Inicial() {
         <div className = "parallax">
             <div className = "container">
                 <div className = "header">
-                    <div className = "titulo">
-                        Onde há um link, há um caminho
+                    <div className = "logo"/>
+                    <div className = "title">
+                    "The best way to predict the future...<br></br> is to to create it."
                     </div>
+                    <div className = "authors">
+                    Abraham Lincoln and Peter Drucker
+                    </div>
+                    <div className = "bar"/>
                 </div>
                 <div className="body">
                     <div className = "info">
-                        <div className="row1">
-                            <div className="ambientais">
-                                Aqui ficarão as variáveis aquisitadas
+                            We are a platform that uses environmental, social and <br/>
+                            political data to analyze and point out the best decisions <br/>
+                            to contain the COVID-19 curve over time.
+                    </div>
+                    <div className = "boxes">
+                        <div className = "analyze">
+                            <div className = "box_title">
+                                Analyze
                             </div>
-                            <div className="sociais">
-                                Aqui ficarão as variáveis sociais
+                            <div className = "text">
+                            View COVID-19 data in real time <br/>
+                            in an easy to understand way
                             </div>
-                            <div className="politicas">
-                                Aqui ficarão as variáveis aplicadas
-                            </div>
+                            <input id = "sent"
+                            type = "submit"
+                            class = "sendButton"
+                            value = "View Charts"
+                            name = "sendButton"/>
+                             <div className = "bar"/>
                         </div>
-                        <div className="row2">
-                            <div className="mapa">
-                                Aqui ficará o mapa
+                        <div className = "project">
+                            <div className = "box_title">
+                                Project
                             </div>
-                            <div className="graficos">
-                                Aqui ficarão os gráficos
+                            <div className = "text">
+                            Make predictions based on climate, <br/>
+                            social and political variables
                             </div>
+                            <input id = "sent"
+                            type = "submit"
+                            class = "sendButton"
+                            value = "Simulate"
+                            name = "sendButton"/>
+                            <div className = "bar"/>
                         </div>
                     </div>
-                    <div className="cuidados1">
-                        <div className="lavar_maos"/>
-                        <div className="limpar_superficies"/>
-                        <div className="usar_mascara"/>
-                    </div>
-                    <div className="cuidados2">
-                        <div className="manter_distancia"/>
-                        <div className="saude_mental"/>
-                        <div className="maos_rosto"/>
-                    </div>
-                </div>
+                </div>             
             </div>
-            
         </div>
     )
 }
