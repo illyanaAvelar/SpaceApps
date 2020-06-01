@@ -10,11 +10,10 @@ We want our platform to be able to forecast data from around the world.
 We have here, the prototype of what our screens would look like at the end of this stage
 
 <img src="./screen1.png">
-<img src="./screen2.jpg">
-<img src="./screen3.jpg">
-<img src="./screen4.jpg">
-<img src="./screen5.jpg">
-<img src="./screen6.jpg">
+<img src="./screen0.png">
+<img src="./screen2.png">
+<img src="./screen3.png">
+<img src="./screen4.png">
 
 ## Our pitch is available at the link:
 
