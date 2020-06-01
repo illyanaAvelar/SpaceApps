@@ -9,7 +9,7 @@ This will be possible through a website that lists political, social and environ
 We want our platform to be able to forecast data from around the world. 
 We have here, the prototype of what our screens would look like at the end of this stage
 
-<img src="./screen1.jpg">
+<img src="./screen1.png">
 <img src="./screen2.jpg">
 <img src="./screen3.jpg">
 <img src="./screen4.jpg">
