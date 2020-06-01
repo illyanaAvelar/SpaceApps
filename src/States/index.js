@@ -2,63 +2,64 @@ import React from 'react';
 
 import './style.scss';
 
-src = "https://www.gstatic.com/charts/loader.js";
-
-google.charts.load('current', {
-    'packages':['geochart'],
-    'mapsApiKey': 'AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY'
-  });
-  google.charts.setOnLoadCallback(drawRegionsMap);
-  
-  function drawRegionsMap() {
-    var data = google.visualization.arrayToDataTable([
-      ['Country', 'Popularity'],
-      ['Germany', 200],
-      ['United States', 300],
-      ['Brazil', 500],
-      ['Canada', 500],
-      ['France', 600],
-      ['RU', 700]
-    ]);
-  
-    var options = {
-            region: '019', // America
-            colorAxis: {colors: ['#00853f', 'black', '#e31b23']},
-            backgroundColor: 'white',
-            datalessRegionColor: 'purple',
-            defaultColor: 'green',
-          };
-  
-    var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
-  
-    chart.draw(data, options);
-}
-
 export default function States() {
  
     return (
     
-    <div className = "parallax">
-    <div className = "container">
-        
-        <div className="header">
-            <div className="logo"/>
-        </div>
-        <div className="container">
-            <div className = "section">
-            <input id = "sent"
-                    type = "submit"
-                    class = "sendButton"
-                    value = "States"
-                    name = "sendButton"/>            
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-            <div className = "bar"/>
-            </div>
+    <title>Pagina2</title>
+</head>
+<script src="js/main.js"></script>
+<script src="https://www.gstatic.com/charts/loader.js"></script>
 
-            <div className="container-estados">
-                <div className="tabela-estados">
-                    <table border="1px">
-                    <tr>
+<body>
+    
+    
+    <header class="cabecalho">
+          <div class="logo"><img src="img/logo.png" alt=""/></div>
+    </header>
+    <div class="container">
+           <section>
+            <select name="" class="btn-estados" id="state">
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+                <option value="EX">Estrangeiro</option>
+              </select>
+           </section>
+
+           <div class="container-estados">
+               <div class="tabela-estados">
+                   <table border="1px">
+                   <tr>
                         <td><a href="#"></a>Brazil</td>
                         <td><a href="#"></a>Pará(PA)</td>
                     </tr>
@@ -114,17 +115,18 @@ export default function States() {
                         <td><a href="#"></a>Pará(PA)</td>
                         <td><a href="#"></a>Tocantins(TO)</td>
                     </tr>
-                    </table>
+                 
+                   </table>
 
-                </div>
-                        <div className="map">
-                            <div className="map1"  id="regions_div" />
-                        </div>
-                </div>
-            </div>
-        </div>
+               </div>
+                    <div class="map">
+                        <div class="map1"  id="regions_div" ></div>
+                    </div>
+               </div>
+           </div>
+</body>
 
-    </div>
-        
+</html>
+
     )
 }

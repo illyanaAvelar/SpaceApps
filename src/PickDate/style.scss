@@ -1,0 +1,108 @@
+.container-simulacao{
+    width: 85%;
+    margin: auto;
+}
+
+.container-simulacao .btn-fazerOutraSimulacao {
+    background-color: #79D56F;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border: none;
+    float: left;
+    border-radius: 12px;
+    font-size: 12pt;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 21px;
+}
+
+
+.box-range {
+    /* padding-top: 8px; */
+    width: 95%;
+    margin: auto;
+    margin: auto;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 16px #455B632E;
+    opacity: 1;
+    padding: 22px;
+    
+}
+
+.box-range label {
+  font-size: 16pt;
+  text-align: left;
+  font: Semibold 44px/58px Segoe UI;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+
+}
+.container-simulacao h4{
+ text-align: center;
+}
+.container-simulacao .data {
+    width: 7%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 16px #455B632E;
+    opacity: 1;
+    padding: 15px;
+    border-radius: 3px;
+    margin: auto;
+    margin-top: 1px;
+    margin-bottom: 22px;
+    border-bottom: 5px solid greenyellow;
+}
+.container-simulacao .container-grafico{
+    width: 95%;
+    bottom: 11px;
+    margin: auto;
+    height: 299px;
+    margin: auto;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 16px #455B632E;
+    opacity: 1;
+    padding: 22px;
+    margin-bottom: 10px;
+}
+.container-simulacao .container-dados-simulacao{
+    width: 95%;
+    margin: auto;
+    height: 200px;
+    margin: auto;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 16px #455B632E;
+    opacity: 1;
+    padding: 22px;
+    margin-bottom: 10px;
+
+}
+
+.container-simulacao .container-dados-simulacao h4{
+    font-size: 25pt;
+   color: #707070;   
+}
+
+.container-simulacao .container-dados-simulacao table {
+    width: 80%;
+    margin: auto;
+    margin-top: 45px;
+    height: 111px;
+    padding: 4px;
+}
+
+.container-simulacao .container-dados-simulacao td {
+    font-size: 12pt;
+}
+
+.container-simulacao .container-dados-simulacao td h1{
+   color: #707070;
+}
+.container-simulacao .dados-simulacao-a table {
+    width: 44%;
+    margin: auto;
+    margin-top: 45px;
+    height: 111px;
+    /* padding: 4px; */
+}
